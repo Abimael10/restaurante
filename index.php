@@ -12,7 +12,7 @@
         <div class="texto">
             <h1 class="brand">D'Santos Restaurant</h1>
             <h3 class="subtitulo">Un oasis de sabor</h3>
-            <a href="#" class="boton">Ordenar Ya</a>
+            <a href="./aviso.php" class="boton">Ordenar Ya</a>
         </div>
         <div class="orilla-abajo"></div>
     </header>
@@ -24,7 +24,7 @@
                 <h3 class="slogan">Mil sabores en un solo lugar</h3>
                 <p class="parrafo">Esta es una página de un restaurante con un nombre ficticio creada por mí para poner en practica algunos conceptos del desarrollo Web Responsive, sin utilizar ningún Framework de CSS.</p>
                 <p class="parrafo">Aunque las imágenes por sí solas se ven muy apetitosas (jeje!), solo quiero dar a conocer lo que puedo construir.</p>
-                <a href="#" class="boton">Suscríbete</a>
+                <a href="./aviso.php" class="boton">Suscríbete</a>
             </div>
         </section>
 
@@ -82,12 +82,12 @@
                 <p>Si hay algo que quiera decir, está en toda su libertad para compartirlo con nosotros.</p>
 
                 <div class="entrada">
-                    <form>
-                        <input type="text" placeholder="Nombre">
-                        <input type="text" placeholder="E-Mail">
-                        <input type="text" id="msg" placeholder="Mensaje">
+                    <form action="contact.php" method="POST">
+                        <input type="text" name="name" placeholder="Nombre">
+                        <input type="text" name="mail" placeholder="E-Mail">
+                        <input type="text" name="message" id="msg" placeholder="Mensaje">
+                        <button name="submit">Let's Talk!</button>
                     </form>
-                    <button type="button">Let's Talk!</button>
                 </div>
             </div>
         </section>

@@ -1,0 +1,45 @@
+{
+    "particles":{
+        "number":{
+            "value":300
+        },
+        "shape":{
+            "stroke":{
+                "width":1,
+                "color":"#fff"
+            }
+        },
+        "opacity":{
+            "value":0.5,
+            "random":true,
+            "anim":{
+                "enable":true,
+                "speed":30
+            }
+        },
+        "size":{
+            "value":3
+        },
+        "move":{
+            "speed":10
+        }
+    },
+
+    "interactivity":{
+        "events":{
+            "onhover":{
+                "enable":true,
+                "mode":"repulse"
+            },
+            "onclick":{
+
+            }
+        },
+        "modes":{
+            "repulse":{
+                "distance":50,
+                "duration":0.4
+            }
+        }
+    }
+}

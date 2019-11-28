@@ -290,10 +290,11 @@ header .boton {
   padding: 1rem 1.3rem;
   font-size: 1rem;
   background: #00c9d8;
-  border: none;
+  outline: none;
   border-radius: 30px;
   margin-top: 2rem;
   color: #fff;
+  cursor: pointer;
 }
 
 footer {
